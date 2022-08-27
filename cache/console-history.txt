@@ -1,0 +1,9 @@
+await newContract.deployTransaction().wait(2)
+const newContract=await fact.deploy()
+const fact= await ethers.getContractFactory("SimpleStorage")
+await deployFact.retrieve()
+await deployFact.store(12)
+deployFact.retrieve()
+const deployFact=await fact.deploy()
+const fact=await ethers.getContractFactory("SimpleStorage");
+const factory=await ethers
